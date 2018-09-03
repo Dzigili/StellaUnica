@@ -1,5 +1,7 @@
 @charset "UTF-8"
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400')
+
 
 body
   box-sizing: border-box
@@ -33,7 +35,7 @@ body
   transition: .3s
   margin-left: 80px
 
-label
+.respon
   margin: 0 10px 0 0
   font-size: 26px
   line-height: 80px
@@ -101,7 +103,7 @@ nav ul li a:hover
   text-align: center
   text-transform: uppercase
 
-.line
+.line-orange
   margin: 0 auto 40px
   height: 3px
   width: 50px
@@ -283,7 +285,292 @@ table tr td
   background-color: #F6F8FA
   text-transform: uppercase
 
+// section 4 //
 
+.container4
+  height: 540px
+  max-width: 1440px
+  background-color: #F5A623
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  width: 100%
+  padding: 80px 0
+  position: relative
+  margin: 0 auto
+
+.container4 h1
+  margin: 0 0 15px
+  height: 24px
+  color: #4A4A4A
+  font-size: 20px
+  font-weight: bold
+  letter-spacing: 1.43px
+  line-height: 24px
+  text-align: center
+  text-transform: uppercase
+
+.line
+  margin: 0 auto 83px
+  height: 3px
+  width: 50px
+  border-radius: 1.5px
+  background-color: #4A4A4A
+
+#content
+  display: grid
+  grid-template-columns: repeat(3, 31%)
+  grid-column-gap: 3.5%
+  grid-row-gap: 30px
+  max-width: 90%
+  margin: 0 auto
+
+#content div
+  padding: 0 50px 0
+  text-align: center
+
+#content div h2
+  height: auto
+  width: 99%
+  color: #4A4A4A
+  font-size: 20px
+  font-weight: bold
+  letter-spacing: 0.2px
+  line-height: 24px
+  display: block
+  margin: 0 auto
+
+#content div p
+  height: 40px
+  width: 100%
+  color: #4A4A4A
+  font-size: 14px
+  letter-spacing: 0.2px
+  line-height: 20px
+  display: block
+  margin: 15px auto
+
+// section 5 //
+
+.container5
+  height: 400px
+  max-width: 1440px
+  background-color: #FFFFFF
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  width: 100%
+  padding: 77px 0
+  position: relative
+  margin: 0 auto
+
+.container5 h1
+  margin: 0 0 15px
+  height: 24px
+  color: #4A4A4A
+  font-size: 20px
+  font-weight: 900
+  letter-spacing: 1.43px
+  line-height: 24px
+  text-align: center
+  text-transform: uppercase
+
+form
+  margin-top: 40px
+  width: 27%
+  margin-left: 20%
+  float: left
+
+.input-form
+  display: flex
+  justify-content: space-between
+  margin-bottom: 20px
+
+.inner-msg
+  width: 100%
+  margin-bottom: 20px
+
+
+.input > input
+  width: 166px
+  padding: 10px 0
+  font-size: 16px
+  color: #000
+  margin-bottom: 20px
+  border: none
+  border-bottom: 1px solid #E9EAEA
+  outline: none
+  background: transparent
+
+.msg > textarea
+  width: 100%
+  border: none
+  border-bottom: 1px solid #E9EAEA
+  padding: 10px 0
+  outline: none
+  background: transparent
+  margin-bottom: 44px
+  font-size: 16px
+  color: #000
+
+.btn
+  height: 50px
+  width: 188px
+  border: 2px solid #E9EAEA
+  border-radius: 5px
+  background-color: #FFFFFF
+  display: block
+  margin: 0 auto
+  color: #4A4A4A
+  font-size: 15px
+  letter-spacing: 0.5px
+  line-height: 18px
+  text-align: center
+  text-transform: uppercase
+
+input::placeholder
+  color: #4A4A4A
+  font-family: "Open Sans", sans-serif
+  font-size: 18px
+  font-weight: 300
+  line-height: 24px
+  pointer-events: none
+  transition: all 0.5s ease
+
+textarea::placeholder
+  color: #4A4A4A
+  font-family: "Open Sans", sans-serif
+  font-size: 18px
+  font-weight: 300
+  line-height: 24px
+  pointer-events: none
+  transition: all 0.5s ease
+
+.input-form input:focus
+  border-bottom: 2px solid #F5A623
+
+.inner-msg textarea:focus
+  border-bottom: 2px solid #F5A623
+
+//form
+//  width: 360px
+//  height: auto
+//  margin-left: 20%
+//
+//.input-group input
+//  width: 166px
+//  padding: 10px 0
+//  font-size: 16px
+//  color: #999
+//  margin-bottom: 30px
+//  border: none
+//  border-bottom: 1px solid #E9EAEA
+//  outline: none
+//  background: transparent
+//
+//.input-group input:focus
+//  border-bottom: 2px solid #F5A623
+//
+//.input-group .placeholder
+//  position: relative
+//  top: 0
+//  left: -166px
+//  padding: 10px 0
+//  color: #4A4A4A
+//  font-family: "Open Sans", sans-serif
+//  font-size: 18px
+//  font-weight: 300
+//  line-height: 24px
+//  pointer-events: none
+//  transition: all 0.5s ease
+//
+//.inline
+//  display: inline-block
+//
+//.input-group input:focus ~ .placeholder,
+//.input-group input:valid ~ .placeholder
+//  top: -20px
+//  left: -166px
+//  color: #F5A623
+//  font-size: 14px
+
+
+
+
+//input
+//  background: none
+//  border-bottom: 2px solid #F5A623
+//  color: #F5A623
+//  padding: 15px 40px
+//  font-size: 18px
+//  display: inline-block
+//
+//  &:focus,
+//  &:active
+//  outline: none
+//
+//  &[type="text"],
+//  &[type="email"]
+//  border: none
+//  border-bottom: 2px solid #F5A623
+//
+//  &[type="submit"]
+//    &:active
+//      color: white
+//      background: #F5A623
+//
+//.input-group
+//  display: inline-block
+//  margin-right: 20px
+//  position: relative
+
+//form
+//  display: block
+//  position: relative
+//  width: 30%
+//  height: 250px
+//  border: 1px solid red
+//  margin-left: 25%
+//
+//label
+//  display: block
+//  position: relative
+//  top: -20px
+//  left: 0
+//  height: 24px
+//  color: #4A4A4A
+//  font-family: "Open Sans", sans-serif
+//  font-size: 18px
+//  font-weight: 300
+//  line-height: 24px
+//  z-index: 1
+//  transition: all 0.3s ease
+//
+//
+//input
+//  width: 70%
+//  border: none
+//  border-bottom: 1px solid #E9EAEA
+//  z-index: 2
+//  background: none
+//
+//
+//input:focus input:valid
+//  outline: none
+//  border-bottom: #F5A623
+//
+//input:focus + label input:valid + label
+//  top: -40px
+//  font-size: 11px
+//  color: #F5A623
+
+//.divider
+//  position: relative
+//  height: 30px
+//  width: auto
+//  background: none
 
 
 
