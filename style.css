@@ -415,6 +415,10 @@ form {
   text-align: center;
   text-transform: uppercase; }
 
+.btn:hover {
+  background: #F5A623;
+  color: #000; }
+
 input::placeholder {
   color: #4A4A4A;
   font-family: "Open Sans", sans-serif;
@@ -438,5 +442,70 @@ textarea::placeholder {
 
 .inner-msg textarea:focus {
   border-bottom: 2px solid #F5A623; }
+
+div.address {
+  float: right;
+  margin-right: 10%; }
+
+div.inner-adr {
+  margin-bottom: 38px; }
+
+div.inner-adr img {
+  float: left;
+  margin: 6px 20px 0; }
+
+div.inner-adr p {
+  margin: 0;
+  display: inline-block;
+  color: #4A4A4A;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 20px; }
+
+footer {
+  height: 18px;
+  max-width: 1440px;
+  background-color: #FFFFFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  padding: 70px 0;
+  margin: 0 auto;
+  position: relative; }
+
+footer p {
+  margin-left: 10%;
+  float: left; }
+
+.down-menu {
+  margin-right: 10%; }
+
+.down-menu .down-group {
+  float: right;
+  text-align: right;
+  margin: 20px;
+  padding: 0;
+  display: table;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; }
+
+.down-menu .down-group .down-li {
+  list-style-type: none;
+  display: inline-block; }
+
+.down-menu .down-group .down-li .down-a {
+  text-decoration: none;
+  color: #4A4A4A;
+  height: 17px;
+  width: 49px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 40px 20px; }
+
+.down-menu .down-group .down-li .down-a:hover {
+  color: #111; }
 
 /*# sourceMappingURL=style.css.map */
