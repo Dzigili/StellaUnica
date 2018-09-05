@@ -46,7 +46,7 @@ body
 #toggle
   display: none
 
-nav
+.menu nav
   float: right
 
 .menu nav ul
@@ -58,11 +58,11 @@ nav
   -webkit-background-clip: padding-box /* for Safari */
   background-clip: padding-box /* for IE9+, Firefox 4+, Opera, Chrome */
 
-nav ul li
+.menu nav ul li
   list-style-type: none
   display: inline-block
 
-nav ul li a
+.menu nav ul li a
   text-decoration: none
   color: white
   text-transform: uppercase
@@ -74,7 +74,7 @@ nav ul li a
   text-align: center
   margin: 40px 20px
 
-nav ul li a:hover
+.menu nav ul li a:hover
   color: #111
 
 // section 2 //
@@ -285,6 +285,10 @@ table tr td
   background-color: #F6F8FA
   text-transform: uppercase
 
+#look-up:hover
+  background: #F5A623
+  color: #000
+
 // section 4 //
 
 .container4
@@ -482,8 +486,10 @@ div.inner-adr p
   letter-spacing: 0.2px
   line-height: 20px
 
+// section 6 //
+
 footer
-  height: 18px
+  height: 58px
   max-width: 1440px
   background-color: #FFFFFF
   -webkit-background-size: cover
@@ -491,43 +497,49 @@ footer
   -o-background-size: cover
   background-size: cover
   width: 100%
-  padding: 70px 0
+  padding: 50px 0
   margin: 0 auto
   position: relative
 
-footer p
-  margin-left: 10%
+.footer-wrap
+  width: 80%
+  padding-left: 10%
+  padding-right: 10%
+
+.footer-wrap p
   float: left
+  margin: 0
+  color: #4A4A4A
+  font-size: 14px
+  line-height: 17px
 
-.down-menu
-  margin-right: 10%
+.footer-wrap nav
+  float: right
 
-.down-menu .down-group
+.footer-wrap nav ul
   float: right
   text-align: right
-  margin: 20px
+  margin: 0
   padding: 0
   display: table
   -webkit-background-clip: padding-box /* for Safari */
   background-clip: padding-box /* for IE9+, Firefox 4+, Opera, Chrome */
 
-.down-menu .down-group .down-li
+.footer-wrap nav ul li
   list-style-type: none
   display: inline-block
 
-.down-menu .down-group .down-li .down-a
+.footer-wrap nav ul li a
   text-decoration: none
   color: #4A4A4A
-  height: 17px
-  width: 49px
   font-size: 14px
   line-height: 17px
-  text-align: center
-  margin: 40px 20px
+  margin-left: 40px
+  text-align: right
 
-.down-menu .down-group .down-li .down-a:hover
-  color: #111
-
+.footer-wrap nav ul li a:hover
+  color: #000
+  font-weight: bold
 
 
 //form
