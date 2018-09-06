@@ -25,8 +25,8 @@ body {
   padding: 1%; }
 
 .logo {
-  height: 65px;
-  width: 100px;
+  height: 85px;
+  width: 120px;
   float: left;
   transition: 0.3s;
   margin-left: 80px; }
@@ -43,7 +43,8 @@ body {
   display: none; }
 
 .menu nav {
-  float: right; }
+  float: right;
+  margin-top: 20px; }
 
 .menu nav ul {
   float: right;
@@ -80,7 +81,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   max-width: 1440px;
-  height: 550px;
+  height: 615px;
   width: 100%;
   padding-top: 80px;
   position: relative;
@@ -106,12 +107,12 @@ body {
 
 .about-us-text {
   margin: 0 auto;
-  height: 68px;
+  height: auto;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   color: #4A4A4A;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
+  line-height: 26px;
   text-align: center; }
 
 .pictures {
@@ -122,10 +123,9 @@ body {
 
 .registar {
   margin: 0 auto;
-  height: 17px;
+  height: auto;
   color: #4A4A4A;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
   text-align: center; }
 
 .container3 {
